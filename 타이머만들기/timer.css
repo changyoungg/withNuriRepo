@@ -1,0 +1,120 @@
+body {
+  background: linear-gradient(90deg, #f0f4ff 0%, #a5b6ee 100%);
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+/* header */
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+}
+header h1 {
+  margin: 72px auto 60px;
+  text-align: center;
+}
+header img {
+  width: 244px;
+}
+
+/* main */
+
+main {
+  width: 400px;
+  background: linear-gradient(144deg, #5572bb 2.13%, #374b7c 102.97%);
+  box-shadow: 20px 20px 60px 10px rgba(55, 75, 124, 0.4);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 16px;
+}
+
+main h2 {
+  width: 312px;
+  font-family: Pretendard;
+  font-size: 24px;
+  font-weight: 700;
+  text-align: center;
+  color: white;
+  margin: 48px auto 23px;
+}
+
+.timer-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 40px;
+  border-top: 1px solid #3d538a;
+  width: 312px;
+}
+.timer-box {
+    margin-top: 33px;
+}
+.box {
+  background: linear-gradient(144deg, #5572bb 2.13%, #374b7c 102.97%);
+  width: 80px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+.box span {
+  font-family: Pretendard;
+  font-size: 40px;
+  font-weight: 700;
+  color: #fff;
+  align-self: center;
+}
+.timer-container img {
+  margin: 0 8px;
+  padding-top: 40px;
+}
+.timer-box p {
+  text-align: center;
+  font-family: Pretendard;
+  font-size: 12px;
+  font-weight: 700;
+  color: #a5b6ee;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin-bottom: 40px;
+}
+.btn img {
+    vertical-align: bottom;
+    padding-right: 2px;
+}
+
+.start {
+  width: 112px;
+  height: 48px;
+  background-color: #324577;
+  border: none;
+  border-radius: 50px;
+  box-shadow: 1px 1px 1px 0px rgba(0, 0, 0, 0.05) inset;
+}
+.reset {
+  width: 112px;
+  height: 48px;
+  background-color: #324577;
+  border: none;
+  border-radius: 50px;
+  box-shadow: 1px 1px 1px 0px rgba(0, 0, 0, 0.05) inset;
+}
+
+/* footer */
+
+footer p {
+  text-align: center;
+  margin-top: 60px;
+  font-family: Pretendard;
+  font-size: 14px;
+  font-weight: 400;
+  color: #8596bf;
+}
